@@ -9,17 +9,17 @@
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "title_en": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "subTitle": {
+    "subTitle_en": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "description": {
+    "description_en": {
       "type": "text",
       "required": true
     },
@@ -32,9 +32,45 @@
       "plugin": "upload",
       "required": true
     },
-    "price": {
+    "price_en": {
       "type": "integer",
       "required": true
+    },
+    "title_de": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title_es": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "subTitle_de": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "subTitle_es": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description_de": {
+      "type": "text",
+      "required": true
+    },
+    "description_es": {
+      "type": "text",
+      "required": true
+    },
+    "price_de": {
+      "type": "integer",
+      "required": true
+    },
+    "price_es": {
+      "required": true,
+      "type": "integer"
     }
   }
 }
